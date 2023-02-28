@@ -27,7 +27,7 @@ public class TestProj {
 		HttpRequest request = HttpRequest.newBuilder()
 		  .GET()
 		  .uri(new URI("https://api.thousandeyes.com/v6/users.json"))
-		  .header("Authorization", getBasicAuthenticationHeader("p.rohitgnp@yahoo.co.in", "g92cfzqjz7y80je7rko5fim8ti6e9tht"))
+		  .header("Authorization", getBasicAuthenticationHeader("p.rohitgnp@yahoo.co.in", "279894d1-5c57-4d5b-8666-f41fdecc0e3b"))
 		  .build();
 
 		HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
